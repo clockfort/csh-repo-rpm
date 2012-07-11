@@ -1,0 +1,7 @@
+[csh-repo]
+
+name=CSH Internal Repo
+
+baseurl=http://csh.rit.edu/~clockfort/csh-repo/$basearch
+
+enabled=1
