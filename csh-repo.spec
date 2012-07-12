@@ -1,5 +1,5 @@
 Name:           csh-repo
-Version:        0.0.1
+Version:        0.0.2
 Release:        1
 Summary:        Internal CSH repository
 
@@ -42,6 +42,8 @@ rm -rf $RPM_BUILD_ROOT
 %config(noreplace) %{_sysconfdir}/yum.repos.d/*
 
 %changelog
-* Tue Aug 12 2008 Chris Lockfort <clockfort@redhat.com> - 0.0.1-1
+* Wed Jul 11 2012 Chris Lockfort <clockfort@redhat.com> - 0.0.1-1
 - Initial RPM release
+* Wed Jul 11 2012 Chris Lockfort <clockfort@redhat.com> - 0.0.2-1
+- No GPG check for now
 
